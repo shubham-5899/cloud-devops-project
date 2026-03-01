@@ -46,6 +46,9 @@ docker run -p 3000:3000 devops-app
 <img width="960" height="393" alt="Screenshot 2026-03-01 190430" src="https://github.com/user-attachments/assets/348b9b2d-8945-4513-b135-ff25993f62fe" />
 <img width="944" height="474" alt="Screenshot 2026-03-01 190310" src="https://github.com/user-attachments/assets/a43569d7-e92d-4511-8d83-76775100bcfc" />
 <img width="948" height="417" alt="Screenshot 2026-03-01 190846" src="https://github.com/user-attachments/assets/2ad914bc-5210-479c-a36c-c358d68cb2da" />
+<img width="1320" height="98" alt="Screenshot 2026-03-01 232013" src="https://github.com/user-attachments/assets/0e7f1a75-b3f9-4c07-9e2d-c95ed279e3ae" />
+
+
 
 
 
