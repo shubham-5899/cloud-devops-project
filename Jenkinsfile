@@ -36,5 +36,18 @@ pipeline {
                 sh "docker push ${DOCKER_IMAGE}:${BUILD_NUMBER}"
             }
         }
+        stage('Deploy Container') {
+            steps {
+                sh '''
+                docker pull shubham5899/devops-app:${BUILD_NUMBER}
+
+                docker stop devops-container || true
+                docker rm devops-container || true
+
+                docker run -d -p 3000:3000 --name devops-container \
+                shubham5899/devops-app:${BUILD_NUMBER}
+                '''
+            }
+        }
     }
 }
